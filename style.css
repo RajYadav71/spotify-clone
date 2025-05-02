@@ -79,6 +79,7 @@ body {
 .login-button:hover {
   background-color: #e0e0e0;
 }
+
 .search-container {
   display: flex;
   align-items: center;
@@ -108,6 +109,7 @@ body {
   font-size: 18px;
   text-align: end;
 }
+
 .first {
   margin-top: 10px;
   margin-left: 4px;
@@ -118,6 +120,7 @@ body {
   border-radius: 10px;
   position: fixed;
 }
+
 .f1 {
   text-align: left;
   color: white;
@@ -126,6 +129,7 @@ body {
   margin-top: 11px;
   padding-top: 10px;
 }
+
 .f2 {
   text-align: Right;
   color: white;
@@ -137,6 +141,7 @@ body {
   width: 214px;
   cursor: pointer;
 }
+
 .f3 {
   margin-top: 40px;
   margin-left: 10px;
@@ -147,6 +152,7 @@ body {
   border-radius: 10px;
   padding: 10px;
 }
+
 .c1 {
   margin-top: 10px;
   margin-left: 10px;
@@ -155,6 +161,7 @@ body {
   text-align: left;
   text-transform: bold;
 }
+
 .c2 {
   margin-top: 10px;
   margin-left: 10px;
@@ -163,6 +170,7 @@ body {
   text-align: left;
   text-transform: bold;
 }
+
 .c3 {
   margin-top: 21px;
   margin-left: 10px;
@@ -175,44 +183,48 @@ body {
   width: 120px;
   height: 35px;
 }
-.f4{
-    margin-top: 30px;
-    margin-left: 10px;
-    width: 385px;
-    height: 144px;
-    opacity: 0.9;
-    background-color: #1f1f1f;
-    border-radius: 10px;
-    padding: 10px;
+
+.f4 {
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 385px;
+  height: 144px;
+  opacity: 0.9;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 10px;
 }
+
 .a1 {
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 17px;
-    color: white;
-    text-align: left;
-   
-  }
-  .a2 {
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 15px;
-    color: white;
-    text-align: left;
-    text-transform: bold;
-  }
-  .a3 {
-    margin-top: 21px;
-    margin-left: 10px;
-    cursor: pointer;
-    border-radius: 23px;
-    background-color: white;
-    color: #000;
-    text-align: center;
-    font-size: 14px;
-    width: 120px;
-    height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  color: white;
+  text-align: left;
 }
+
+.a2 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  text-transform: bold;
+}
+
+.a3 {
+  margin-top: 21px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 23px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  width: 120px;
+  height: 35px;
+}
+
 .li {
   display: flex;
   flex-direction: column;
@@ -220,6 +232,7 @@ body {
   margin-top: 285px;
   margin-left: 12px;
 }
+
 .row ul {
   display: flex;
   list-style: none;
@@ -239,9 +252,10 @@ body {
   transition: color 0.3s;
 }
 
-.li8{
+.li8 {
   color: white;
 }
+
 .language-button {
   background-color: black;
   border-radius: 15px;
@@ -263,9 +277,9 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  margin: 0; /* no manual margin needed */
+  margin: 0;
+  /* no manual margin needed */
 }
-
 
 .second {
   width: 1475px;
@@ -276,6 +290,7 @@ body {
   margin-top: 10px;
   margin-left: 436px;
 }
+
 .t1 {
   text-align: left;
   color: white;
@@ -284,10 +299,13 @@ body {
   margin-top: 11px;
   padding-top: 20px;
 }
+
 .song {
   display: grid;
-  grid-auto-flow: column; /* flow in a row */
-  grid-auto-columns: auto; /* size based on content */
+  grid-auto-flow: column;
+  /* flow in a row */
+  grid-auto-columns: auto;
+  /* size based on content */
   gap: 0px;
 }
 
@@ -300,8 +318,16 @@ body {
   background-color: #121212;
 }
 
-.s1, .s2, .s3, .s4, .s5,
-.s6, .s7, .s8, .s9, .s10 {
+.s1,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6,
+.s7,
+.s8,
+.s9,
+.s10 {
   margin: 0;
   padding: 0;
   display: grid;
@@ -311,8 +337,16 @@ body {
   border-radius: 10px;
 }
 
-.so1, .so2, .so3, .so4, .so5,
-.so6, .so7, .so8, .so9, .so10 {
+.so1,
+.so2,
+.so3,
+.so4,
+.so5,
+.so6,
+.so7,
+.so8,
+.so9,
+.so10 {
   width: 243px;
   height: 232px;
   border-radius: 10px;
@@ -320,19 +354,29 @@ body {
   margin: 10px auto 0;
 }
 
-.sh1, .sh2, .sh3, .sh4, .sh5,
-.sh6, .sh7, .sh8, .sh9, .sh10 {
+.sh1,
+.sh2,
+.sh3,
+.sh4,
+.sh5,
+.sh6,
+.sh7,
+.sh8,
+.sh9,
+.sh10 {
   margin-top: -6px;
   margin-left: 24px;
   font-size: 17px;
   color: white;
   text-align: left;
 }
+
 .dis {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;
 }
+
 audio {
   width: 870px;
   height: 50px;
@@ -341,4 +385,48 @@ audio {
   border-radius: 25px;
   margin-top: 20px;
   /* margin-left: 10px; */
+}
+
+@media screen and (max-width: 1537px) {
+  .first {
+    width: 334px;
+    height: 650px;
+  }
+
+  .f3 {
+    width: 285px;
+  }
+
+  .f4 {
+    width: 285px;
+  }
+  .f2 {
+    margin-left: 38px;
+  }
+  .second {
+    width: 1177px;
+    height: 650px;
+    margin-left: 350px;
+}
+.s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10 {
+    width: 210px;
+    height: 232px;
+}
+.so1, .so2, .so3, .so4, .so5, .so6, .so7, .so8, .so9, .so10 {
+    width: 183px;
+    height: 162px;
+    cursor: pointer;
+}
+audio {
+  width: 870px;
+  height: 50px;
+  justify-content: center;
+  background-color: #1db954;
+  border-radius: 25px;
+  margin-top: 0px;
+}
+.sh1, .sh2, .sh3, .sh4, .sh5, .sh6, .sh7, .sh8, .sh9, .sh10 {
+  font-size: 14px;
+  cursor: pointer;
+}
 }
